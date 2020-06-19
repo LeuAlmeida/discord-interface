@@ -1,13 +1,29 @@
 import React from "react";
 
-import { Container, Title, ExpandIcon } from "./styles";
+import {
+  Container,
+  Profile,
+  Avatar,
+  UserData,
+  Icons,
+  MicIcon,
+  HeadphoneIcon,
+  SettingsIcon,
+} from "./styles";
 
 const ServerName: React.FC = () => {
   return (
     <Container>
-      <Title>Servidor do Léu</Title>
+      <Profile>
+        <Avatar />
+        <UserData />
+      </Profile>
 
-      <ExpandIcon />
+      <Icons>
+        <MicIcon />
+        <HeadphoneIcon />
+        <SettingsIcon />
+      </Icons>
     </Container>
   );
 };
