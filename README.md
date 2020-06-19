@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Discord" title="Discord" src="tmp/discord-logo.png" />
+  <img alt="Discord" title="Discord" src="tmp/discord-logo.png" width="300" />
 </h1>
 
 <h3 align="center">
@@ -24,6 +24,14 @@ An interface reply created using ReactJS by Léu Almeida with :blue_heart: and :
 <!-- p align="center">
   <img src="tmp/presentation.jpg" alt="Discord Presentation">
 </p -->
+
+<p align="center">
+<h3 align="center">
+  <a href="https://leunardo.dev/discord" target="_blank">
+    ⚡ Live Preview Here ⚡
+  </a>
+</h3>
+</p>
 
 <hr/>
 
