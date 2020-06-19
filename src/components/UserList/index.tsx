@@ -13,7 +13,7 @@ interface UserProps {
 const UserRow: React.FC<UserProps> = ({ nickname, isBot, isOwner, avatar }) => {
   return (
     <User>
-      <Avatar src={avatar || ''} />
+      <Avatar className={isBot ? 'bot' : ''} src={avatar || ''} />
 
       <strong>{nickname}</strong>
 
@@ -30,7 +30,7 @@ const UserList: React.FC = () => {
       <UserRow nickname="Léu Almeida" isOwner avatar={avatars.LeuAlmeida} />
 
       <Role>Offline - 18</Role>
-      <UserRow nickname="Diego Fernandes" isBot avatar={avatars.bot} />
+      <UserRow nickname="Diego Fernandes" isBot />
     </Container>
   );
 };
