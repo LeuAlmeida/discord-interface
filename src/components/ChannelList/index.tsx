@@ -1,13 +1,20 @@
 import React from "react";
 
-import { Container, Title, ExpandIcon } from "./styles";
+import { Container, Category, AddCategoryIcon } from "./styles";
 
 const ChannelList: React.FC = () => {
   return (
     <Container>
-      <Title>Servidor do Léu</Title>
+      <Category>
+        <span>Canais de texto</span>
 
-      <ExpandIcon />
+        <AddCategoryIcon />
+      </Category>
+
+      {/* <ChannelButton channelName="chat-livre" />
+      <ChannelButton channelName="trabalho" />
+      <ChannelButton channelName="csgo" />
+      <ChannelButton channelName="valorant" /> */}
     </Container>
   );
 };
