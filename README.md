@@ -7,7 +7,7 @@
 </h3>
 
 <blockquote align="center">
-An interface reply created using ReactJS by Léu Almeida with :blue_heart: and :coffee:
+An interface clone created using ReactJS by Léu Almeida with :blue_heart: and :coffee:
 </blockquote>
 
 <p align="center">
