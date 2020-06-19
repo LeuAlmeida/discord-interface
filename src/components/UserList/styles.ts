@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Crown } from "styled-icons/fa-solid";
 
 interface AvatarProps {
   src?: string;
@@ -59,7 +60,9 @@ export const User = styled.div`
   > strong {
     margin-left: 13px;
     font-weight: 500;
-    color: var(--white);
+
+    color: var(--gray);
+    font-size: 14px;
 
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -89,4 +92,13 @@ export const Avatar = styled.div<AvatarProps>`
 
   background: var(--primary) ${(props) => props.src && `url('${props.src}')`};
   background-size: 32px 32px;
+`;
+
+export const OwnerIcon = styled(Crown)`
+  margin-left: 9px;
+
+  width: 16px;
+  height: 16px;
+
+  color: var(--mention-detail);
 `;
