@@ -62,6 +62,13 @@ $ yarn start
 
 <hr/>
 
+ToDo:
+
+- [ ] Create alert to mobile devices
+- [ ] Implementing presentation on the README.md file
+
+<hr/>
+
 <h4 align="center">
 <a href="http://linkedin.com/in/leonardoalmeida99">Connect me in LinkedIn</a> | <a href="http://behance.net/almeida99">See my Behance</a> | <a href="https://leunardo.dev">Click here to go to my CV</a>
 </h4>
