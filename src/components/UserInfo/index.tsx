@@ -11,12 +11,14 @@ import {
   SettingsIcon,
 } from "./styles";
 
+import avatars from "../../static/avatars";
+
 const ServerName: React.FC = () => {
   return (
     <Container>
       <Profile>
-        <Avatar src="https://avatars1.githubusercontent.com/u/42948574?s=460&u=cf88494dc9252d1a4dcb15268def6abc58365f69&v=4" />
-        
+        <Avatar src={avatars.LeuAlmeida} />
+
         <UserData>
           <strong>Léu Almeida</strong>
           <span>#8583</span>

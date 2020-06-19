@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Mic, Headset, Settings } from "styled-icons/material";
 
-interface Props {
+interface AvatarProps {
   src?: string;
 }
 
@@ -22,7 +22,7 @@ export const Profile = styled.div`
   align-items: center;
 `;
 
-export const Avatar = styled.div<Props>`
+export const Avatar = styled.div<AvatarProps>`
   width: 32px;
   height: 32px;
   border-radius: 50%;
