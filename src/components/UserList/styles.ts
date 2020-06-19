@@ -1,8 +1,11 @@
 import styled from "styled-components";
 import { Crown } from "styled-icons/fa-solid";
 
+import avatars from "../../static/avatars";
+
 interface AvatarProps {
   src?: string;
+  isBot?: boolean;
 }
 
 export const Container = styled.div`
@@ -90,8 +93,15 @@ export const Avatar = styled.div<AvatarProps>`
   height: 32px;
   border-radius: 50%;
 
-  background: var(--primary) ${(props) => props.src && `url('${props.src}')`};
+  background: var(--primary)
+    ${(props) =>
+      props.src ? `url('${props.src}')` : `url('${avatars.default}')`};
   background-size: 32px 32px;
+
+  &.bot {
+    background: var(--primary) url('${avatars.bot}');
+    background-size: 32px 32px;
+  }
 `;
 
 export const OwnerIcon = styled(Crown)`
