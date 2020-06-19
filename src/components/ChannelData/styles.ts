@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { AlternateEmail } from "styled-icons/material";
+import styled from 'styled-components';
+import { AlternateEmail } from 'styled-icons/material';
 
 export const Container = styled.div`
   grid-area: CD;
@@ -17,11 +17,11 @@ export const Messages = styled.div`
   display: flex;
   flex-direction: column;
 
-  max-height: (100vh -46px -68px);
+  max-height: calc(100vh - 46px - 68px);
   overflow-y: scroll;
 
   ::-webkit-scrollbar {
-    width: 4px;
+    width: 8px;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -46,6 +46,7 @@ export const Input = styled.input`
 
   padding: 0 10px 0 57px;
   border-radius: 7px;
+
   color: var(--white);
   background-color: var(--chat-input);
 
@@ -61,11 +62,11 @@ export const Input = styled.input`
     left: 14px;
     transition: 180ms ease-in-out;
   }
-  
 `;
 
 export const InputIcon = styled(AlternateEmail)`
-width: 24px;
-height: 24px;
+  width: 24px;
+  height: 24px;
 
-coloR: var(--gray)`;
+  color: var(--gray);
+`;
