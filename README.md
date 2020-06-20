@@ -22,7 +22,7 @@ An interface clone created using ReactJS by Léu Almeida with 💜 and :coffee:
 </p>
 
 <p align="center">
-  <img src="tmp/presentation.jpg" alt="Discord Presentation">
+  <img src="tmp/presentation.png" alt="Discord Presentation">
 </p>
 
 <p align="center">
